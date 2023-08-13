@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Tektur', cursive;
+    background-color: black;
+    cursor: url(crusor/1.png), auto;
+}
+a{
+    cursor: url(crusor/2.png), auto;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sombis.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: gold;
+
+
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt h1 {
+    font-size: 105px;
+    line-height: 110px;
+    color: white;
+    margin-bottom: 35px;
+
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 11px 45px;
+    background-color: gold;
+    color: white;
+    border-radius: 25px;
+    font-size: 22px;
+}
+.btn-1:hover {
+    background-color: gold;
+}
+
+.direction {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.direction p {
+    color: white;
+    font-size: 16px;
+}
+
+.about {
+    padding: 100px 0;
+    display: flex;
+}
+
+.about-txt {
+    width: 50%;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    width: 450px;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.about-txt p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+
+.information-1 {
+    display: flex;
+    align-items: center;
+}
+.information-1 h3 {
+    font-size: 70px;
+    color: white;
+}
+.information-1 p{
+    font-size: 16px;
+    color: white;
+    margin-left: 15px;
+
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+}
+.house-1{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/u1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+        filter: contrast(200%);
+}
+.house-2{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/u2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+        filter: drop-shadow(5px 5px 10px red);
+}
+.house-3{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/u3.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+.house-4{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/u4.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+.house-5{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(img/u5.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+.txt {
+    position: relative;
+}
+.txt span {
+    color: gold;
+    font-size: 35px;
+}
+.txt h3 {
+    color: white;
+    font-size: 35px;
+}
+.txt p {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    rotate: 270deg;
+}
+
+.footer {
+    padding: 100px 0 0 ;
+}
+.footer-content {
+    display: flex;
+}
+.footer-form {
+    width: 50%;
+}
+.footer-txt {
+    width: 50%;
+}
+form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+.campo {
+    background-color: #201F23;
+    padding: 17px 35px;
+    outline: none;
+    color: #7E7E7E;
+    border: 0;
+    margin-bottom: 10px;
+
+}
+.campo::placeholder {
+    color: #7E7E7E;
+}
+.btn-2 {
+    padding: 17px;
+    border: 2px solid gold;
+    background-color: gold;
+    color: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.footer-txt h3 {
+    color: white;
+    font-size: 35px;
+    margin: 0 100px 20px 0;
+
+}
+
+.footer-txt p {
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-2 p {
+    padding: 50px 0 ;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
