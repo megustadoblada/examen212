@@ -34,7 +34,7 @@ p{
     align-items: center;
 }
 
-.menu{
+.sombi{
     position: absolute;
     top: 0;
     left: 0;
@@ -49,33 +49,33 @@ p{
     font-size: 25px;
 }
 
-.menu .navbar ul li {
+.sombi .navbar ul li {
     position: relative;
     float: left;
 }
 
-.menu .navbar ul li a {
+.sombi .navbar ul li a {
     font-size: 20px;
     padding: 20px;
     color: white;
     display: block;
 }
 
-.menu .navbar ul li a:hover{
+.sombi .navbar ul li a:hover{
     color: gold;
 
 
 }
 
-#menu {
+#sombi {
     display: none;
 
 }
 
-.menu-icono{
+.sombi-icono{
     width: 25px;
 }
-.menu label {
+.sombi label {
     cursor: pointer;
     display: none;
 }
